@@ -1,0 +1,1 @@
+Start-Process PowerShell -verb runas -ArgumentList '-exe bypass -noexit','-File','C:\Windows\Temp\abcd.ps1'
